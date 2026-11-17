@@ -1,0 +1,24 @@
+[
+  {
+    "id": "tpl-pitch",
+    "name": "Full-Stack Value Pitch",
+    "category": "Application",
+    "subject": "Application: {{role}} - {{candidate_name}} ({{candidate_experience}} | {{candidate_skills_short}})",
+    "body": "Hi {{recruiter_name}},\n\nI hope you're having a productive week.\n\nI'm writing to express my strong interest in the {{role}} opening at {{company}}. With {{candidate_experience}} of hands-on experience engineering commercial SaaS systems, I believe my background aligns well with {{company}}'s engineering standards.\n\nKey Highlights:\n- Core Stack: {{candidate_skills}}\n- Commercial Impact: Architected scalable backend services and responsive frontend systems deployed for active enterprise users.\n- Notice Period: {{candidate_notice}}.\n\nI have attached my resume for your consideration and would love to speak with you regarding how I can contribute to {{company}}'s upcoming roadmap.\n\nBest regards,\n{{candidate_name}}\nPhone: {{candidate_phone}}\nEmail: {{candidate_email}}\nLinkedIn: {{candidate_linkedin}} | GitHub: {{candidate_github}}"
+  },
+  {
+    "id": "tpl-referral",
+    "name": "Quick Referral / Networking",
+    "category": "Networking",
+    "subject": "Quick inquiry regarding {{role}} at {{company}} - {{candidate_name}}",
+    "body": "Hi {{recruiter_name}},\n\nI came across your profile while researching the innovative engineering happening at {{company}}.\n\nI am a {{candidate_title}} with {{candidate_experience}} of experience in {{candidate_skills_short}}. I noticed an opening for the {{role}} role at {{company}} and wanted to reach out directly to see if you have 5 minutes for a brief conversation, or if you could point me towards the appropriate hiring team.\n\nI have attached my resume for quick reference. Thank you so much for your time and guidance!\n\nBest regards,\n{{candidate_name}}\n{{candidate_phone}} | {{candidate_email}}"
+  },
+  {
+    "id": "tpl-followup",
+    "name": "Polite Application Follow-Up",
+    "category": "Follow-Up",
+    "subject": "Following up: Application for {{role}} - {{candidate_name}}",
+    "body": "Hi {{recruiter_name}},\n\nI hope you're having a great week!\n\nI wanted to follow up briefly regarding my application for the {{role}} position at {{company}}. I remain very enthusiastic about the opportunity to contribute to {{company}}'s engineering goals.\n\nAs an {{candidate_notice}} with hands-on expertise in {{candidate_skills_short}}, I welcome the chance to discuss how my skill set can support your team.\n\nLooking forward to hearing from you!\n\nBest regards,\n{{candidate_name}}\n{{candidate_phone}} | {{candidate_email}}"
+  }
+]
+

@@ -1,0 +1,11 @@
+
+node_modules
+.next
+.env
+.env.local
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+/data/settings.json
+/data/settings_*.json
+
