@@ -7,7 +7,7 @@ from pathlib import Path
 
 def load_env():
     """Load key-value pairs from .env if present without external dependencies."""
-    env_path = Path(__file__).resolve().parent / ".env"
+    env_path = Path(__file__).resolve().parent.parent / ".env"
     if env_path.exists():
         with open(env_path, "r", encoding="utf-8") as f:
             for line in f:

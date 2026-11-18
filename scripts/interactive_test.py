@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 from pathlib import Path
 
 def load_env():
-    env_path = Path(__file__).resolve().parent / ".env"
+    env_path = Path(__file__).resolve().parent.parent / ".env"
     if env_path.exists():
         with open(env_path, "r", encoding="utf-8") as f:
             for line in f:

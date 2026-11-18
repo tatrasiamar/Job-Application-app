@@ -38,3 +38,11 @@ When writing or applying cold email templates, you can use any of these dynamic 
 ## 🌐 Live Application
 
 Open **[http://localhost:3000](http://localhost:3000)** in your browser.
+
+## Project Structure
+
+- `app/` — Next.js pages, layouts, and API route handlers
+- `lib/` — shared application libraries
+- `data/` — local JSON data used by the app
+- `scripts/` — standalone development, SMTP, and maintenance utilities
+- `supabase/` — SQL schema files for Supabase setup
